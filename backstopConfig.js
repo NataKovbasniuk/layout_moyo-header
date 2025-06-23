@@ -7,7 +7,9 @@ const { basicScenario } = backstop;
 const basic = {
   ...basicScenario,
   label: 'Elementary test',
-  referenceUrl: basicScenario.referenceUrl + '/moyo-header/',
+  url: 'http://127.0.0.1:51721/',
+  referenceUrl: 'http://127.0.0.1:51721/',
+
 };
 
 const config = {
@@ -56,3 +58,4 @@ const config = {
 };
 
 module.exports = config;
+
