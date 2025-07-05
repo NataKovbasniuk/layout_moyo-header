@@ -6,8 +6,11 @@ const { basicScenario } = backstop;
 const basic = {
   ...basicScenario,
   label: 'Elementary test',
-  referenceUrl: 'https://natakovbasniuk.github.io/layout_moyo-header/',
+  url: 'http://127.0.0.1:50279/index.html',
+  referenceUrl: 'http://127.0.0.1:50279/index.html',
 };
+
+
 module.exports = {
   ...backstop,
   fileNameTemplate: '{scenarioLabel}_{viewportLabel}',
@@ -56,8 +59,6 @@ module.exports = {
     },
   ],
 };
-
-
 
 
 
